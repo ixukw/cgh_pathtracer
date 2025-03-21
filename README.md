@@ -1,6 +1,6 @@
 # cgh_pathtracer
 
-Learn more about the project by reading the report at 272_final_report.pdf.
+This is the code for a path tracer to compute computer generated holograms. Learn more about the project by reading the report at 272_final_report.pdf.
 
 ## Installation
 
@@ -10,3 +10,10 @@ Replace the render.cpp and vol_path_tracing.h files in lajolla from here: https:
 
 To run the python files, install the necessary packages.
 
+## Usage
+
+To render phase images, run as instructed in the lajolla renderer.
+
+To generate reconstructions using your phase images, run `python3 holo_script2.py`.
+
+To generate reconstructions from the source image, run `python3 holo_script.py`
