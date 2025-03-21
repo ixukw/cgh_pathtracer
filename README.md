@@ -1,6 +1,8 @@
 # cgh_pathtracer
- 
-# Installation
+
+Learn more about the project by reading the report at 272_final_report.pdf.
+
+## Installation
 
 Download the Odak library here: https://kaanaksit.com/odak/
 
