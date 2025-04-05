@@ -4,16 +4,18 @@ This is the code for a path tracer to compute computer generated holograms. Lear
 
 ## Installation
 
-Download the Odak library here: https://kaanaksit.com/odak/
+Download the Odak library here and place the src in available imports. https://kaanaksit.com/odak/
 
-Replace the render.cpp and vol_path_tracing.h files in lajolla from here: https://github.com/BachiLi/lajolla_public
+Download embree and necessary packages to run lajolla from the master repository. https://github.com/BachiLi/lajolla_public
 
-To run the python files, install the necessary packages.
+## Running
+
+Please use the provided pyvenv.cfg file for setting up the virtual environment.
 
 ## Usage
 
 To render phase images, run as instructed in the lajolla renderer.
 
-To generate reconstructions using your phase images, run `python3 holo_script2.py`.
+To generate reconstructions using your phase images, run `python3 evaluation/src/generate_reconstruction.py`.
 
-To generate reconstructions from the source image, run `python3 holo_script.py`
+To generate reconstructions from the source image, run `python3 evaluation/src/generate_cgh_sgd.py`.
